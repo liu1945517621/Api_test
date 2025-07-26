@@ -1,0 +1,10 @@
+1、在你的cmd窗口或者pycharm编程工具Terminal命令窗口执行下面这句代码，（记得改下-r后面的路径，改成你自己的路径）
+
+    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ -r F:\debugApi\apiFlaskService\requirements.txt
+
+2、如果第一个一键安装会报错，就用下面这个命令依次安装
+    pip Faker qrcode -i https://pypi.tuna.tsinghua.edu.cn/simple/
+    pip Flask qrcode -i https://pypi.tuna.tsinghua.edu.cn/simple/
+    pip Flask_JWT_Extended qrcode -i https://pypi.tuna.tsinghua.edu.cn/simple/
+    pip pandas qrcode -i https://pypi.tuna.tsinghua.edu.cn/simple/
+    pip PyMySQL qrcode -i https://pypi.tuna.tsinghua.edu.cn/simple/
