@@ -1,11 +1,6 @@
-import json
-import allure
+
 import pytest
 import requests
-import urllib3
-import time
-
-from dome.readyaml import ReadYamlData
 
 
 class SendRequest:

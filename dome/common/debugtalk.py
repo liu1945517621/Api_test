@@ -1,3 +1,5 @@
+import random
+
 from readyaml import ReadYamlData
 
 
@@ -13,7 +15,8 @@ class DebugTalk():
         :return:
         """
         data = self.read.get_extract_yaml(node_name)
-        if randoms is not None and bool(re.compile(r'^[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?$').match(randoms)):
+        # if randoms is not None and bool(re.compile(r'^[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?$').match(randoms)):
+        if randoms is not None :
             randoms = int(randoms)
             data_value = {
                 randoms: self.get_extract_order_data(data, randoms),
@@ -26,7 +29,16 @@ class DebugTalk():
             data = self.read.get_extract_yaml(node_name, randoms)
         return data
 
+
     def get_extract_order_data(self, data, randoms):
         """获取extract.yaml数据，不为0、-1、-2，则按顺序读取文件key的数据"""
         if randoms not in [0, -1, -2]:
             return data[randoms - 1]
+
+
+
+if __name__ == '__main__':
+    d = DebugTalk()
+    print(d.get_extract_data('Params', 0))
+    print(d.get_extract_data('Params', -1))
+    print(d.get_extract_data('Params', -2))

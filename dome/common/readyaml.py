@@ -1,7 +1,7 @@
 import yaml
 import traceback
 import os
-
+from dome.conf.setting import FILE_PATH
 
 def get_testcase_yaml(file):
     # testcase_list = []
@@ -30,7 +30,7 @@ class ReadYamlData:
         if yaml_file is not None:
             self.yaml_file = yaml_file
         else:
-            self.yaml_file = 'loginName.yaml'
+            self.yaml_file = FILE_PATH['LOGIN']
 
     @property
     def get_yaml_data(self, node_name):
@@ -57,7 +57,7 @@ class ReadYamlData:
         """
 
         file = None
-        file_path = r'extract.yaml'
+        file_path = FILE_PATH['EXTRACT']
         if not os.path.exists(file_path):
             os.system(file_path)
         try:
@@ -72,10 +72,32 @@ class ReadYamlData:
         finally:
             file.close()
 
+    def get_extract_yaml(self, node_name, second_node_name=None):
+        """
+        用于读取接口提取的变量值
+        :param node_name:
+        :return:
+        """
+        if os.path.exists(FILE_PATH['EXTRACT']):
+            pass
+        else:
+            print('extract.yaml不存在')
+            file = open(FILE_PATH['EXTRACT'], 'w')
+            file.close()
+            print('extract.yaml创建成功！')
+        try:
+            with open(FILE_PATH['EXTRACT'], 'r', encoding='utf-8') as rf:
+                ext_data = yaml.safe_load(rf)
+                if second_node_name is None:
+                    return ext_data[node_name]
+                else:
+                    return ext_data[node_name][second_node_name]
+        except Exception as e:
+            print(f"【extract.yaml】没有找到：{node_name},--%s" % e)
 
 
 if __name__ == '__main__':
-    res = get_testcase_yaml('loginName.yaml')
+    res = get_testcase_yaml(FILE_PATH['LOGIN'])
     url = res[0]['baseInfo']['url']
     nest_url = 'http://127.0.0.1:8787' + url
     method = res[0]['baseInfo']['method']
@@ -87,5 +109,7 @@ if __name__ == '__main__':
     # write_token = {"Token": res['token']}
     # print(write_token)
     #
-    # write_yaml = ReadYamlData()
+    write_yaml = ReadYamlData()
     # write_yaml.write_yaml_data(write_token)
+    res2 = write_yaml.get_extract_yaml('Params')
+    print(res2)

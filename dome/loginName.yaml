@@ -4,6 +4,7 @@
     method: post
     header:
       Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+      token: ${get_extract_data(Token)}
   testCase:
     - case_name: 用户名和密码正确登录验证
       data:
