@@ -2,6 +2,8 @@ import yaml
 import traceback
 import os
 from dome.conf.setting import FILE_PATH
+from dome.common.sendrequest import SendRequest
+
 
 def get_testcase_yaml(file):
     # testcase_list = []
@@ -98,6 +100,7 @@ class ReadYamlData:
 
 if __name__ == '__main__':
     res = get_testcase_yaml(FILE_PATH['LOGIN'])
+    # print(res)
     url = res[0]['baseInfo']['url']
     nest_url = 'http://127.0.0.1:8787' + url
     method = res[0]['baseInfo']['method']
@@ -109,7 +112,7 @@ if __name__ == '__main__':
     # write_token = {"Token": res['token']}
     # print(write_token)
     #
-    write_yaml = ReadYamlData()
+    # write_yaml = ReadYamlData()
     # write_yaml.write_yaml_data(write_token)
-    res2 = write_yaml.get_extract_yaml('Params')
-    print(res2)
+    # res2 = write_yaml.get_extract_yaml('Params')
+    # print(res2)
