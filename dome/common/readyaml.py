@@ -2,7 +2,6 @@ import yaml
 import traceback
 import os
 from dome.conf.setting import FILE_PATH
-from dome.common.sendrequest import SendRequest
 
 
 def get_testcase_yaml(file):
@@ -96,6 +95,15 @@ class ReadYamlData:
                     return ext_data[node_name][second_node_name]
         except Exception as e:
             print(f"【extract.yaml】没有找到：{node_name},--%s" % e)
+
+    def clear_yaml_data(self):
+        """
+        清空extract.yaml文件数据
+        :param filename: yaml文件名
+        :return:
+        """
+        with open(FILE_PATH['EXTRACT'], 'w') as f:
+            f.truncate()
 
 
 if __name__ == '__main__':

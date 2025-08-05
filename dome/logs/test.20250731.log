@@ -1,0 +1,4 @@
+INFO - 2025-07-31 23:39:02,414 - test_login.py:16 -[test_login:test_login01] - 请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2025-07-31 23:44:20,073 - conftest.py:19 -[conftest:fixture_test] - ----------接口测试开始------------
+INFO - 2025-07-31 23:44:20,075 - test_login.py:16 -[test_login:test_login01] - 请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2025-07-31 23:44:20,092 - conftest.py:21 -[conftest:fixture_test] - -----------接口测试结束-----------

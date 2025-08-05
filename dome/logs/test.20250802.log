@@ -1,0 +1,163 @@
+INFO - 2025-08-02 21:55:12,278 - sendrequest.py:151 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 21:55:12,286 - sendrequest.py:152 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 21:55:12,286 - sendrequest.py:153 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 21:55:12,286 - sendrequest.py:154 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 21:55:12,286 - sendrequest.py:155 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 21:55:12,287 - sendrequest.py:156 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 21:55:12,288 - sendrequest.py:160 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 21:57:23,428 - sendrequest.py:151 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 21:57:23,428 - sendrequest.py:152 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 21:57:23,428 - sendrequest.py:153 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 21:57:23,428 - sendrequest.py:154 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 21:57:23,428 - sendrequest.py:155 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 21:57:23,428 - sendrequest.py:156 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 21:57:23,429 - sendrequest.py:160 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:00:11,635 - sendrequest.py:152 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:00:11,635 - sendrequest.py:153 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:00:11,635 - sendrequest.py:154 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:00:11,635 - sendrequest.py:155 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:00:11,636 - sendrequest.py:156 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:00:11,636 - sendrequest.py:157 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:00:11,636 - sendrequest.py:161 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:33:03,348 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:33:03,348 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:33:03,348 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:33:03,348 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:33:03,348 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:33:03,349 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:33:03,349 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:33:03,362 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NTE4MywianRpIjoiN2FmMzViM2MtYmQ5Ny00YzMxLThkOWQtN2YyZDdkMTcyMGMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NTE4MywiY3NyZiI6Ijg4NWI2Y2E3LWJhZGQtNDYyYi1iYzUxLWJlNzllOWVkYWJlNSIsImV4cCI6MTc1NDE0NjA4M30.U5OTHOTajN_5mQTPC2Y-_ebE-X8O7jbud8OjWqWe0sU', 'csrf_access_token': '885b6ca7-badd-462b-bc51-be79e9edabe5'}}
+INFO - 2025-08-02 22:33:03,362 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "4140913758110176843",
+  "token": "b4e2dA95dFd8eca630DAacDE1EDFf",
+  "userId": "1826489397618280065"
+}
+
+INFO - 2025-08-02 22:33:35,124 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:33:35,124 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:33:35,124 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:33:35,124 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:33:35,124 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:33:35,125 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:33:35,125 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:33:35,131 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NTIxNSwianRpIjoiMDUyZTY2ZmQtMTkxYS00YTYwLTg5NzAtNDhhMGIzZTdlZDU5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NTIxNSwiY3NyZiI6ImUwZjI0MGIyLWZiMTMtNDk2My04ZjVhLWU4MmIxOTcyYTAyMiIsImV4cCI6MTc1NDE0NjExNX0.R5sXwz9s4_5IuYKdEj4zLnW-0N2mgjPw8pZA_l1At_0', 'csrf_access_token': 'e0f240b2-fb13-4963-8f5a-e82b1972a022'}}
+INFO - 2025-08-02 22:33:35,131 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "6140913758128971280",
+  "token": "99CB7c28F0187eE0d3DD8C59FEfB8",
+  "userId": "1826489397618280065"
+}
+
+INFO - 2025-08-02 22:35:01,305 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:35:01,305 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:35:01,305 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:35:01,305 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:35:01,306 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:35:01,306 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:35:01,306 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:35:01,320 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NTMwMSwianRpIjoiMmZkMTc5N2ItN2QxNS00NmJhLWFjZjgtZTJmMzRjZmEzZGMyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NTMwMSwiY3NyZiI6IjdlZDcxM2VlLWI5MGEtNGNiNy1iMzI4LWJiOTE5YmI4NjgyNyIsImV4cCI6MTc1NDE0NjIwMX0.E3qBCWr2HYqUqKU2DS3LBrKJUAn19tT2sI2Nwzo4g4Q', 'csrf_access_token': '7ed713ee-b90a-4cb7-b328-bb919bb86827'}}
+INFO - 2025-08-02 22:35:01,320 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "4140913758110176843",
+  "token": "5DACe97F86Fccf3E79b43eE7A7d89",
+  "userId": "1826489397618280065"
+}
+
+INFO - 2025-08-02 22:35:39,965 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:35:39,965 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:35:39,965 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:35:39,965 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:35:39,965 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:35:39,965 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:35:39,966 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:35:39,972 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NTMzOSwianRpIjoiYTQ1ZjlmNDMtN2Q4Mi00ZWFiLWFlZWItZWU0YmFlNWVhMDE3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NTMzOSwiY3NyZiI6IjE0MWNkMmQ4LTgwNWEtNGI4Mi05Mzc1LTk3YTNiNjRlNDM1NCIsImV4cCI6MTc1NDE0NjIzOX0.6SJjjXIlheii_4WuXtU7qzWRQ62OlIS-A_4c7pksfsw', 'csrf_access_token': '141cd2d8-805a-4b82-9375-97a3b64e4354'}}
+INFO - 2025-08-02 22:35:39,972 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "6140913758128971280",
+  "token": "bbe4Cba0B46Fa22fD7DcE7bd2EB23",
+  "userId": "1826489397618280065"
+}
+
+INFO - 2025-08-02 22:36:17,203 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:36:17,203 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:36:17,203 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:36:17,203 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:36:17,203 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:36:17,203 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:36:17,204 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:36:17,209 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NTM3NywianRpIjoiNWJhN2RmMWQtZGFmMy00MDFjLTk1NzQtMjA2ZDI2NzZhYTgyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NTM3NywiY3NyZiI6IjE4NzJmMTA4LWIzOTYtNGZkMS05ZjlmLTE5ZGY1ZDQyMTk0MiIsImV4cCI6MTc1NDE0NjI3N30.v1cbuujJY6RnUOYuwLhQIPcSyT3EZ1bisyQLl9cgx9E', 'csrf_access_token': '1872f108-b396-4fd1-9f9f-19df5d421942'}}
+INFO - 2025-08-02 22:36:17,209 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "6140913758128971280",
+  "token": "Bbd2B8Fc5EE10A04ABca8B09029b3",
+  "userId": "1826489397618280065"
+}
+
+INFO - 2025-08-02 22:37:12,866 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:37:12,866 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:37:12,866 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:37:12,866 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:37:12,866 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:37:12,866 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:37:12,867 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:37:12,880 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NTQzMiwianRpIjoiMmZmMzExNGItMDY4ZS00MmM0LWI5M2QtMGRjMDgzOWRhZTA1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NTQzMiwiY3NyZiI6IjBmNmI0ZmZlLWRhZDUtNDE4Yi04Nzc4LTUzN2VlN2UwNDg0MSIsImV4cCI6MTc1NDE0NjMzMn0.KwIe4EXql9xt5PCdXoim1FQ8Y8jbF5mQQHQbbrPT_nM', 'csrf_access_token': '0f6b4ffe-dad5-418b-8778-537ee7e04841'}}
+INFO - 2025-08-02 22:37:12,880 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "4140913758110176843",
+  "token": "482AC90Fae4f0ba4B6dd29CeBcefa",
+  "userId": "1826489397618280065"
+}
+
+INFO - 2025-08-02 22:37:36,230 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:37:36,230 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:37:36,230 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:37:36,230 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:37:36,230 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:37:36,230 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:37:36,231 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:37:36,255 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NTQ1NiwianRpIjoiNjNlNTJhYTAtYjg2Zi00MzYwLWJjMDAtZjVlYTkyYzU2N2EwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NTQ1NiwiY3NyZiI6IjUyZGMwOTMwLTRhYjUtNDQwMC1iMTMzLWM2NjBhZTNjZTg3OSIsImV4cCI6MTc1NDE0NjM1Nn0.LRx1GYZXVqMEWYxEt99gQR_uyRc0MtdQHAXPsrWDFyk', 'csrf_access_token': '52dc0930-4ab5-4400-b133-c660ae3ce879'}}
+INFO - 2025-08-02 22:37:36,255 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'afD5D4C2Aee9Ac70cbaBc76EDd4d2', 'userId': '1826489397618280065'}
+INFO - 2025-08-02 22:50:11,529 - conftest.py:18 -[conftest:fixture_test] - ----------接口测试开始------------
+INFO - 2025-08-02 22:50:11,531 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:50:11,531 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:50:11,531 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:50:11,531 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:50:11,532 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:50:11,532 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:50:11,532 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:50:11,538 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NjIxMSwianRpIjoiMjk3NzAzMjAtOWY0NS00MzkyLWI4OGEtY2MyNzI4ZTNjZjUzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NjIxMSwiY3NyZiI6ImEzYTFkYzRkLTM3YmYtNGVlOS04MjBjLTcxNmUxY2RmN2ZmMCIsImV4cCI6MTc1NDE0NzExMX0.6XmFU79YsAQova-hHTvdUx1r6iCsTBMzaHh1Ry7n7R0', 'csrf_access_token': 'a3a1dc4d-37bf-4ee9-820c-716e1cdf7ff0'}}
+INFO - 2025-08-02 22:50:11,538 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': '881Ca3cEF7A9e7c9a51c3ffCc161D', 'userId': '1826489397618280065'}
+INFO - 2025-08-02 22:50:11,641 - conftest.py:21 -[conftest:fixture_test] - -----------接口测试结束-----------
+INFO - 2025-08-02 22:55:30,961 - conftest.py:18 -[conftest:fixture_test] - ----------接口测试开始------------
+INFO - 2025-08-02 22:55:30,963 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:55:30,963 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:55:30,963 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:55:30,964 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:55:30,964 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:55:30,964 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:55:30,964 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:55:30,989 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NjUzMCwianRpIjoiMjhjZTQzOWItYWMzZC00Nzc1LWFiNTQtZTY5ODM1YmIzODRkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NjUzMCwiY3NyZiI6Ijk5MWE4ZWExLTcxYTctNDMzYS04YzAxLWIzOTlhNDJhNGIxOSIsImV4cCI6MTc1NDE0NzQzMH0.TkPa0PIzB6qshRTtMGXj7hM-Zz7DmhevABd1_8IYUTo', 'csrf_access_token': '991a8ea1-71a7-433a-8c01-b399a42a4b19'}}
+INFO - 2025-08-02 22:55:30,989 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'ebB7D694cAcB9cBc1DC7EE9e9eECe', 'userId': '1826489397618280065'}
+INFO - 2025-08-02 22:55:30,993 - sendrequest.py:59 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-08-02 22:55:30,993 - sendrequest.py:60 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2025-08-02 22:55:30,993 - sendrequest.py:61 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-08-02 22:55:30,993 - sendrequest.py:62 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-08-02 22:55:30,993 - sendrequest.py:63 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(Token)}'}
+INFO - 2025-08-02 22:55:30,993 - sendrequest.py:64 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-08-02 22:55:30,994 - sendrequest.py:68 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-08-02 22:55:31,020 - sendrequest.py:31 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDE0NjUzMSwianRpIjoiMDI0Y2JkY2YtMTUyMC00OWE0LWI2ODEtN2JkYzgwMGY0OGNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDE0NjUzMSwiY3NyZiI6ImVlYmE3MTZjLWQ1NzAtNDZhZS1hM2U1LTA0NDkxZjJkYmUxZSIsImV4cCI6MTc1NDE0NzQzMX0.Q5Xu_3CYDpW8OTeur5JdLWT_Rw6Zf3fwpsjiuutxeDw', 'csrf_access_token': 'eeba716c-d570-46ae-a3e5-04491f2dbe1e'}}
+INFO - 2025-08-02 22:55:31,020 - sendrequest.py:32 -[sendrequest:send_request] - 接口返回信息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'CC8116bAA8d9BDb0cD9D9Df7c96C4', 'userId': '1826489397618280065'}
+INFO - 2025-08-02 22:55:31,021 - conftest.py:21 -[conftest:fixture_test] - -----------接口测试结束-----------

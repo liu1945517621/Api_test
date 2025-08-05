@@ -1,0 +1,12 @@
+INFO     dome.common.recordlog:sendrequest.py:62 接口名称：用户登录
+INFO     dome.common.recordlog:sendrequest.py:63 请求地址：：http://127.0.0.1:8787/dar/user/login
+INFO     dome.common.recordlog:sendrequest.py:64 请求方式：：post
+INFO     dome.common.recordlog:sendrequest.py:65 测试用例名称：：用户名和密码正确登录验证
+INFO     dome.common.recordlog:sendrequest.py:66 请求头：：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO     dome.common.recordlog:sendrequest.py:67 Cookie：：None
+INFO     dome.common.recordlog:sendrequest.py:33 cookie: {'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NDM5MTY0MSwianRpIjoiMmI1MTVhOTctMjlkYy00ZjVlLTkwZDQtYTFkNjJkOWE0ZTkzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc1NDM5MTY0MSwiY3NyZiI6IjdmOTZiNWFiLTI0MTQtNDE0ZC04NzQyLTcxYzFhYzg0MTU2YyIsImV4cCI6MTc1NDM5MjU0MX0.FNgDMqm6DmVWIOS3ipZsCbVC88laNTqMHLuZZFw8-5k', 'csrf_access_token': '7f96b5ab-2414-414d-8742-71c1ac84156c'}}
+INFO     dome.common.recordlog:sendrequest.py:34 接口的实际返回信息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'DB0caE2BC0ddA83EbB3EDe1e9bB13', 'userId': '1826489397618280065'}
+ERROR    dome.common.recordlog:assertions.py:37 contains断言失败：接口返回码【200】不等于【400】
+INFO     dome.common.recordlog:assertions.py:68 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+ERROR    dome.common.recordlog:assertions.py:140 测试失败
+INFO     dome.common.recordlog:conftest.py:27 -----------接口测试结束-----------

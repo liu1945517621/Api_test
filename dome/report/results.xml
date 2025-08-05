@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.520" timestamp="2025-07-28T12:02:35.732811+08:00" hostname="DESKTOP-UUFDR4F"><testcase classname="testcase.login.test_login.TestLogin" name="test_login01[params0]" time="0.077" /><testcase classname="testcase.login.test_login.TestLogin" name="test_login02[params0]" time="0.005"><failure message="AssertionError: assert '参数错误' == '登录成功'&#10;  &#10;  - 登录成功&#10;  + 参数错误">self = &lt;test_login.TestLogin object at 0x00000201A43103B0&gt;
+params = {'baseInfo': {'api_name': '用户登录', 'header': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token...01'}, 'extract': {'token': '$.token'}, 'validation': [{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]}]}
+
+    @pytest.mark.parametrize('params', get_testcase_yaml(FILE_PATH['LOGIN']))
+    def test_login02(self, params):
+        # print('获得参数:',  params)
+        url = params['baseInfo']['url']
+        nest_url = 'http://127.0.0.1:8787' + url
+        method = params['baseInfo']['method']
+    
+        data = {'user_name': 'test01', 'password': '123'}
+    
+        res = SendRequest().run_main(url=nest_url, method=method, data=data, header=None)
+        print('响应数据:', res)
+&gt;       assert res['msg'] == '登录成功'
+E       AssertionError: assert '参数错误' == '登录成功'
+E         
+E         - 登录成功
+E         + 参数错误
+
+testcase\login\test_login.py:31: AssertionError</failure></testcase></testsuite></testsuites>
